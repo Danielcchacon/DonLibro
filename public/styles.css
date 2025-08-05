@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Magic Retro';
+    src: url('./fonts/MagicRetro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Handy Casual';
+    src: url('./fonts/HandyCasual.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu a,
+.destacados h3,
+.destacados p,
+.programacion-carrera h3,
+.programacion-carrera td,
+.programacion-carrera th,
+.programacion-carrera a.btn-inscribete {
+    font-family: 'Handy Casual', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #f5e9d2;
+    color: #333;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+    /* border-bottom: 2px solid #000; */
+}
+
+.header-logo-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Alineación a la izquierda */
+    gap: 40px;
+    /* Aumenta separación */
+    margin-bottom: 10px;
+    padding-left: 20px;
+    /* Opcional: agrega margen desde el borde */
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.titulo-principal {
+    font-family: 'Magic Retro', cursive;
+    font-size: 7rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-top: 2px solid #000;
+    /* Línea encima del menú */
+    padding-top: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.banner img {
+    width: 45%;
+    border: 5px solid #000;
+}
+
+.frase {
+    font-family: 'Alex Brush', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+    border-bottom: 2px solid #000;
+}
+
+.destacados {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.destacados .item img {
+    width: 100px;
+    height: 100px;
+    /* border: 5px solid black; */
+    margin-bottom: 10px;
+
+}
+
+.programacion-carrera {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+    border-top: 2px solid #000;
+}
+
+.tabla {
+    flex: 1;
+}
+
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.tabla th,
+.tabla td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.carrera {
+    flex: 1;
+    text-align: center;
+}
+
+.carrera img {
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.btn-inscribete {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/* Líneas a los lados del título */
+.titulo-lineas {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.titulo-lineas h3 {
+  font-family: 'Handy Casual', sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.titulo-lineas span {
+  content: "";
+  display: inline-block;
+  width: 35%;
+  height: 2px;
+  background-color: black;
+}
+
+/* Línea vertical al costado de la tabla */
+.tabla-con-borde {
+  display: flex;
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+.tabla table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+.tabla th, .tabla td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
