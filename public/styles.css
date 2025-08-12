@@ -131,10 +131,15 @@ body {
 }
 
 .tabla table {
+    border-collapse: separate; 
+    border-spacing: 0; 
     width: 100%;
-    border-collapse: collapse;
-    background: white;
+    background-color: #f5e9d2; 
+    border: 2px solid black;
+    border-radius: 15px; 
+    overflow: hidden; 
 }
+
 
 .tabla th,
 .tabla td {
@@ -203,11 +208,7 @@ footer {
   padding-right: 10px;
 }
 
-.tabla table {
-  border-collapse: collapse;
-  width: 100%;
-  background-color: #fff;
-}
+
 
 .tabla th, .tabla td {
   border: 2px solid black;
